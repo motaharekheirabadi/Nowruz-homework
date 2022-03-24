@@ -18,6 +18,13 @@ img{
     /* transform: translateY(200px); */
     
     /*! scale */
-    transform:scale()
+    /* transform:scaleX(1); */
+    /* transform:scaleY(2.5); */
+    transform: scale(1 , 0.5); 
+
+    /*! rotate */
+    /* transform:rotateX(60deg); */
+    /* transform:rotateY(0deg); */
+    /* transform:rotateZ(90deg); */
 } 
 
