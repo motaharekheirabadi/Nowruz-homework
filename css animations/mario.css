@@ -41,15 +41,29 @@ html, body{
 
 .mario{
   position: absolute;
-  top: -40px;
+  top: -60px;
   left: 0px;
   animation-name: drive;
-  animation-duration: 5s;
+  animation-duration: 3s;
+  animation-fill-mode: both;
+  animation-delay:3s;
+  animation-iteration-count: infinite;
+}
 
+.luigi{
+  position: absolute;
+  top: 50px;
+  left:0;
+  animation-name: drive;
+  animation-duration:3s;
+  animation-fill-mode: both;
+  animation-delay:3s;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
 }
 
 @keyframes drive {
-  from {transform:translateX(0px)}
-  to{transform: translateX(1400px);}
+  from {transform:translateX(-200px)}
+  to{transform: translateX(1600px);}
 }
 
