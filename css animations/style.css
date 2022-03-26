@@ -1,5 +1,5 @@
 
-/* body{
+ body{
     background: lightblue;
     text-align: center;
 }
@@ -12,15 +12,14 @@
 
 img{
 
-! transform  
+ /* !transform   */
     transform: translate(-200px , 200px);
-    transform: translateX(200px);
-    transform: translateY(200px);
-    
-    /*! scale */
-    /* transform:scaleX(1);
-    transform:scaleY(2.5);
-    transform: scale(1 , 0.5);  */
+    /* transform: translateX(200px); */
+    /* transform: translateY(200px); *    
+    /* ! scale */
+     /* transform:scaleX(1); */
+    /* transform:scaleY(2.5); */
+    transform: scale(1 , 0.5);  
 
     /*! rotate */
     /* transform:rotateX(60deg);
@@ -28,7 +27,7 @@ img{
     transform:rotateZ(90deg); */
 } 
 
-/* .circle{
+ .circle{
     width:100px;
     padding: 50px 0;
     line-height: 0;
@@ -42,47 +41,7 @@ img{
 
 .circle:hover {
   background:salmon;
-transform: rotate(360deg); */
-} /
-
-
-/**4**//////////////////////////
-
-html, body{
-  height: 100%;
-  width:100%;
-  overflow: hidden;
-  margin: 0;
+transform: rotate(360deg);
 }
 
-.grass, .sky, .road{
-  position: relative;
-}
 
-.sky{
-  height: 40%;
-  background: skyblue;
-}
-
-.grass{
-  height: 30%;
-  background: seagreen;
-}
-
-.road{
-  height: 30%;
-  background: dimgrey;
-  box-sizing: border-box;
-  border-top: 10px solid grey;
-  border-bottom: 10px solid grey;
-  width: 100%;
-}
-
-.lines{
-  box-sizing: border-box;
-  border: 5px dashed #fff;
-  height: 0px;
-  width: 100%;
-  position: absolute;
-  top: 45%;
-}
