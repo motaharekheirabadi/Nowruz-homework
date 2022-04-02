@@ -20,7 +20,7 @@ body {
   color: rgba(255, 255, 255, 0.1);
   background-image:url(back.png);
   background-repeat: repeat-x;
-  /* -webkit-background-clip: text; */
+  -webkit-background-clip: text;
   animation: animate 15s linear infinite;
 }
 
